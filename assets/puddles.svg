@@ -1,0 +1,22 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="2099.68" height="1029.56" viewBox="0 0 2099.68 1029.56" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Vector 214" filter="url(#filter0_ig_0_11)">
+<path d="M476.063 250.518V149.018C504.396 138.351 595.663 117.018 628.063 117.018H731.563H893.563H1161.06C1212.06 117.018 1276.56 96.5175 1337.06 100.518C1397.56 104.518 1547.56 110.518 1580.06 117.018C1612.56 123.518 1637.06 135.018 1659.06 149.018C1681.06 163.018 1679.56 216.018 1659.06 264.518C1638.56 313.018 1583.76 270.518 1508.76 297.018C1433.76 323.518 1434.76 317.518 1355.76 319.518C1276.76 321.518 1139.06 305.518 1086.06 319.518C1070.38 323.66 1041.61 345.927 1009.76 375.811C998.332 386.531 1404.01 557.804 1392.26 570C1391.47 570.822 1584.67 538.365 1747.76 542.018C1874.21 544.85 2000.98 630.673 1999.57 635.5C2005.07 896 1814.18 786.424 1659.06 792C1248.06 792 1364.67 616.795 1354.26 614C1229.18 580.426 945.978 441.299 936.672 452C886.659 509.505 984.482 531.202 1001.07 542.018C1014.99 551.1 981.873 496 1105.07 570C1251.57 658 1248.06 653.48 1248.06 680.018C1248.06 724.518 1250.06 761.018 1221.56 797.518C1193.06 834.018 1159.06 868.518 1120.56 880.518C1082.06 892.518 989.257 894.518 930.257 894.518C904.622 894.518 882.208 920.706 760.757 924C602.683 928.287 341.335 932.024 285.066 927.5C185.566 919.5 127.79 945.088 107.563 894.518C92.7562 857.5 103.563 610 107.563 588C111.563 566 121.563 556.518 127.563 542.018C133.563 527.518 212.564 501 279.564 503C321.324 504.247 358.965 495.681 476.063 503C546.836 507.423 720.262 531.031 731.563 528.018C761.563 520.018 890.757 348.018 917.257 319.518C938.457 296.718 644.896 320.018 642.063 297.018L476.063 250.518Z" fill="#D9D9D9" fill-opacity="0.14"/>
+</g>
+<defs>
+<filter id="filter0_ig_0_11" x="-9.14292e-09" y="-1.79027e-09" width="2099.68" height="1029.56" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="11" dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_0_11"/>
+<feTurbulence type="fractalNoise" baseFrequency="0.0099999997764825821 0.0099999997764825821" numOctaves="3" seed="4452" />
+<feDisplacementMap in="effect1_innerShadow_0_11" scale="200" xChannelSelector="R" yChannelSelector="G" result="displacedImage" width="100%" height="100%" />
+<feMerge result="effect2_texture_0_11">
+<feMergeNode in="displacedImage"/>
+</feMerge>
+</filter>
+</defs>
+</svg>

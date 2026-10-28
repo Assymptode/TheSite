@@ -1,15 +1,338 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="ru">
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet", href="styles/style.css" />
-    <title>Rainy Stadium</title>
-</head>
-<body>
-    <main>
-        <h1>Шрифт Работает</h1>
-        <p>Fira sans</p>
+    <meta name="theme-color" content="#4e544e">
+    <meta
+      name="description"
+      content="Rainy Stadium — стадион, на котором всегда идёт дождь. Футбол, баскетбол и волейбол в необычных условиях."
+    >
+    <link rel="stylesheet" href="styles/style.css">
+    <title>
+      Rainy Stadium — спорт под дождём
+    </title>
+  </head>
+  <body>
+    <main class="stadium-site">
+      <section class="hero" aria-labelledby="site-title">
+        <img class="hero__rain art" src="assets/rain.svg" alt="" width="1985" height="1384">
+        <img
+          class="hero__stadium art"
+          src="assets/stadium.svg"
+          alt="Иллюстрация дождливого стадиона"
+          width="1939"
+          height="1527"
+        >
+        <div class="hero__intro">
+          <h1 id="site-title">
+            <span class="visually-hidden">
+              Rainy Stadium
+            </span>
+            <img src="assets/logo.svg" alt="" width="1061" height="204">
+          </h1>
+          <p>
+            Стадион, на котором всегда идёт дождь.
+            <br>
+            Основан в 1999 в городе Тапиокия Александром Владламовым по специальному
+            заказу.
+          </p>
+        </div>
+      </section>
+      <section class="story" aria-labelledby="story-title">
+        <img class="story__puddles art" src="assets/puddles.svg" alt="" width="2100" height="1030">
+        <h2 id="story-title">
+          Сложность поддержки
+        </h2>
+        <figure class="story__quote">
+          <blockquote>
+            «Построить стадион было нетрудно, основные проблемы возникли при его
+            поддержке. Главный инженер Арламов ушёл из проекта на ранней стадии: фура
+            заскользила на льду и его машина перевернулась. Арламов не выжил. Много чего
+            перестраивалось и системы улучшались, чтобы выдерживать такие поливы воды.»
+          </blockquote>
+          <figcaption>
+            — Александр Владламов
+          </figcaption>
+        </figure>
+        <img
+          class="story__hoop art"
+          src="assets/basketball-hoop.svg"
+          alt="Баскетбольное кольцо"
+          width="554"
+          height="123"
+        >
+      </section>
+      <section class="sports" aria-labelledby="sports-title">
+        <div class="sports__pitch" aria-hidden="true">
+          <img
+            class="sports__circle art"
+            src="assets/pitch-circle.svg"
+            alt=""
+            width="560"
+            height="560"
+          >
+          <img class="sports__line art" src="assets/pitch-line.svg" alt="" width="1078" height="5">
+          <img
+            class="sports__goal sports__goal--left art"
+            src="assets/goal-left.svg"
+            alt=""
+            width="407"
+            height="683"
+          >
+          <img
+            class="sports__goal sports__goal--right art"
+            src="assets/goal-right.svg"
+            alt=""
+            width="407"
+            height="683"
+          >
+        </div>
+        <h2 id="sports-title">
+          <span>
+            Твой
+          </span>
+          <span>
+            Выход
+          </span>
+        </h2>
+        <p class="sports__lead">
+          <span>
+            Мы предлагаем
+          </span>
+          <span>
+            3 вида спорта
+          </span>
+        </p>
+        <div class="sports__list">
+          <article class="sport sport--football">
+            <h3>
+              Футбол
+            </h3>
+            <p>
+              Мокрое поле, скользкий мяч и меньше времени на принятие решений.
+            </p>
+          </article>
+          <article class="sport sport--volleyball">
+            <h3>
+              Волейбол
+            </h3>
+            <p>
+              Мокрый мяч становится тяжелее и непредсказуемее с каждой минутой игры.
+            </p>
+          </article>
+          <article class="sport sport--basketball">
+            <h3>
+              Баскетбол
+            </h3>
+            <p>
+              Дождь меняет сцепление с площадкой и заставляет адаптировать привычную
+              технику.
+            </p>
+          </article>
+        </div>
+        <img class="sports__ball art" src="assets/football.svg" alt="" width="189" height="207">
+      </section>
+      <section class="stats" aria-labelledby="stats-title">
+        <div class="stats__pattern" aria-hidden="true">
+          <img src="assets/stat-ball.svg" alt="" style="--col:3;--row:0" width="160" height="135">
+          <img src="assets/stat-ball.svg" alt="" style="--col:4;--row:0" width="160" height="135">
+          <img src="assets/stat-ball.svg" alt="" style="--col:5;--row:0" width="160" height="135">
+          <img src="assets/stat-ball.svg" alt="" style="--col:6;--row:0" width="160" height="135">
+          <img src="assets/stat-ball.svg" alt="" style="--col:6;--row:1" width="160" height="135">
+          <img src="assets/stat-ball.svg" alt="" style="--col:7;--row:1" width="160" height="135">
+          <img src="assets/stat-ball.svg" alt="" style="--col:8;--row:1" width="160" height="135">
+          <img src="assets/stat-ball.svg" alt="" style="--col:9;--row:1" width="160" height="135">
+          <img src="assets/stat-ball.svg" alt="" style="--col:10;--row:1" width="160" height="135">
+          <img src="assets/stat-ball.svg" alt="" style="--col:11;--row:1" width="160" height="135">
+          <img src="assets/stat-ball.svg" alt="" style="--col:2;--row:2" width="160" height="135">
+          <img src="assets/stat-ball.svg" alt="" style="--col:3;--row:2" width="160" height="135">
+          <img src="assets/stat-ball.svg" alt="" style="--col:4;--row:2" width="160" height="135">
+          <img src="assets/stat-ball.svg" alt="" style="--col:5;--row:2" width="160" height="135">
+          <img src="assets/stat-ball.svg" alt="" style="--col:6;--row:2" width="160" height="135">
+          <img src="assets/stat-ball.svg" alt="" style="--col:7;--row:2" width="160" height="135">
+          <img src="assets/stat-ball.svg" alt="" style="--col:8;--row:2" width="160" height="135">
+          <img src="assets/stat-ball.svg" alt="" style="--col:9;--row:2" width="160" height="135">
+          <img src="assets/stat-ball.svg" alt="" style="--col:10;--row:2" width="160" height="135">
+          <img src="assets/stat-ball.svg" alt="" style="--col:11;--row:2" width="160" height="135">
+          <img src="assets/stat-ball.svg" alt="" style="--col:5;--row:3" width="160" height="135">
+          <img src="assets/stat-ball.svg" alt="" style="--col:6;--row:3" width="160" height="135">
+          <img src="assets/stat-ball.svg" alt="" style="--col:7;--row:3" width="160" height="135">
+          <img src="assets/stat-ball.svg" alt="" style="--col:8;--row:3" width="160" height="135">
+          <img src="assets/stat-ball.svg" alt="" style="--col:9;--row:3" width="160" height="135">
+          <img src="assets/stat-ball.svg" alt="" style="--col:10;--row:3" width="160" height="135">
+          <img src="assets/stat-ball.svg" alt="" style="--col:11;--row:3" width="160" height="135">
+          <img src="assets/stat-ball.svg" alt="" style="--col:3;--row:4" width="160" height="135">
+          <img src="assets/stat-ball.svg" alt="" style="--col:4;--row:4" width="160" height="135">
+          <img src="assets/stat-ball.svg" alt="" style="--col:5;--row:4" width="160" height="135">
+          <img src="assets/stat-ball.svg" alt="" style="--col:6;--row:4" width="160" height="135">
+          <img src="assets/stat-ball.svg" alt="" style="--col:7;--row:4" width="160" height="135">
+          <img src="assets/stat-ball.svg" alt="" style="--col:8;--row:4" width="160" height="135">
+          <img src="assets/stat-ball.svg" alt="" style="--col:9;--row:4" width="160" height="135">
+          <img src="assets/stat-ball.svg" alt="" style="--col:10;--row:4" width="160" height="135">
+          <img src="assets/stat-ball.svg" alt="" style="--col:11;--row:4" width="160" height="135">
+          <img src="assets/stat-ball.svg" alt="" style="--col:5;--row:5" width="160" height="135">
+          <img src="assets/stat-ball.svg" alt="" style="--col:6;--row:5" width="160" height="135">
+          <img src="assets/stat-ball.svg" alt="" style="--col:7;--row:5" width="160" height="135">
+          <img src="assets/stat-ball.svg" alt="" style="--col:8;--row:5" width="160" height="135">
+          <img src="assets/stat-ball.svg" alt="" style="--col:9;--row:5" width="160" height="135">
+          <img src="assets/stat-ball.svg" alt="" style="--col:10;--row:5" width="160" height="135">
+          <img src="assets/stat-ball.svg" alt="" style="--col:11;--row:5" width="160" height="135">
+          <img src="assets/stat-ball.svg" alt="" style="--col:2;--row:6" width="160" height="135">
+          <img src="assets/stat-ball.svg" alt="" style="--col:3;--row:6" width="160" height="135">
+          <img src="assets/stat-ball.svg" alt="" style="--col:4;--row:6" width="160" height="135">
+          <img src="assets/stat-ball.svg" alt="" style="--col:5;--row:6" width="160" height="135">
+          <img src="assets/stat-ball.svg" alt="" style="--col:6;--row:6" width="160" height="135">
+          <img
+            src="assets/stat-ball-alt.svg"
+            alt=""
+            style="--col: 7; --row: 6"
+            width="160"
+            height="135"
+          >
+          <img src="assets/stat-ball.svg" alt="" style="--col:8;--row:6" width="160" height="135">
+          <img src="assets/stat-ball.svg" alt="" style="--col:9;--row:6" width="160" height="135">
+          <img src="assets/stat-ball.svg" alt="" style="--col:10;--row:6" width="160" height="135">
+          <img src="assets/stat-ball.svg" alt="" style="--col:11;--row:6" width="160" height="135">
+          <img
+            class="umbrella"
+            src="assets/umbrella.svg"
+            alt=""
+            style="--col: 7; --row: 7"
+            width="161"
+            height="136"
+          >
+          <img
+            class="umbrella"
+            src="assets/umbrella.svg"
+            alt=""
+            style="--col: 8; --row: 7"
+            width="161"
+            height="136"
+          >
+          <img
+            class="umbrella"
+            src="assets/umbrella.svg"
+            alt=""
+            style="--col: 9; --row: 7"
+            width="161"
+            height="136"
+          >
+          <img
+            class="umbrella"
+            src="assets/umbrella.svg"
+            alt=""
+            style="--col: 10; --row: 7"
+            width="161"
+            height="136"
+          >
+          <img
+            class="umbrella"
+            src="assets/umbrella.svg"
+            alt=""
+            style="--col: 11; --row: 7"
+            width="161"
+            height="136"
+          >
+        </div>
+        <h2 id="stats-title">
+          Наша статистика
+        </h2>
+        <dl class="stats__list">
+          <div>
+            <dt>
+              12 500
+            </dt>
+            <dd>
+              зрителей вмещает стадион
+            </dd>
+          </div>
+          <div>
+            <dt>
+              240+
+            </dt>
+            <dd>
+              матчей проведено
+            </dd>
+          </div>
+          <div>
+            <dt>
+              1,8 млн
+            </dt>
+            <dd>
+              гостей за всё время
+            </dd>
+          </div>
+          <div>
+            <dt>
+              94%
+            </dt>
+            <dd>
+              матчей проходят по расписанию
+            </dd>
+          </div>
+        </dl>
+      </section>
+      <section class="contact" aria-labelledby="contact-title">
+        <img
+          class="contact__circle art"
+          src="assets/contact-circle.svg"
+          alt=""
+          width="504"
+          height="504"
+        >
+        <img
+          class="contact__line art"
+          src="assets/contact-line.svg"
+          alt=""
+          width="2461"
+          height="15"
+        >
+        <h2 id="contact-title">
+          Присоединись к нам
+        </h2>
+        <p class="contact__lead">
+          Окунись в спорт под дождём.
+        </p>
+        <address class="contact__details">
+          <a class="contact__item contact__phone" href="tel:+79127550311">
+            <img src="assets/phone.svg" alt="" width="45" height="50">
+            <span>
+              +7 (912) 755-03-11
+            </span>
+          </a>
+          <a class="contact__item contact__email" href="mailto:contact@rainystadium.com">
+            <img src="assets/email.svg" alt="" width="74" height="44">
+            <span>
+              contact@rainystadium.com
+            </span>
+          </a>
+          <p class="contact__item contact__address">
+            <img src="assets/location.svg" alt="" width="38" height="58">
+            <span>
+              Россия, г. Тапиокия, проспект Олимпийский, д. 18
+            </span>
+          </p>
+        </address>
+        <object
+          class="contact__booth art"
+          data="assets/telephone-booth.svg"
+          type="image/svg+xml"
+          aria-label="Телефонная будка Rainy Stadium"
+          width="435"
+          height="571"
+        >
+          <img
+            src="assets/telephone-booth.svg"
+            alt="Телефонная будка Rainy Stadium"
+            width="435"
+            height="571"
+          >
+        </object>
+        <footer>
+          © 1999–2026, ООО «Рейни Стадиум», официальный сайт
+        </footer>
+      </section>
     </main>
-</body>
+  </body>
 </html>
