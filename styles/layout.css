@@ -39,17 +39,6 @@ img {
   pointer-events: none;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip-path: inset(50%);
-  white-space: nowrap;
-}
-
 .hero {
   background: #363636;
 }
@@ -73,8 +62,33 @@ img {
   padding-top: 3.28125cqw;
 }
 
+.hero h1 {
+  position: relative;
+  container-type: inline-size;
+}
+
+.hero__title-text {
+  position: absolute;
+  top: 0;
+  left: 1.614%;
+  color: transparent;
+  font-size: 14.762cqw;
+  font-weight: 500;
+  line-height: 1.2;
+  white-space: nowrap;
+  user-select: text;
+  cursor: text;
+}
+
+.hero__title-text::selection {
+  color: HighlightText;
+  background-color: Highlight;
+}
+
 .hero h1 img {
   width: 100%;
+  user-select: none;
+  pointer-events: none;
 }
 
 .hero__intro p {
